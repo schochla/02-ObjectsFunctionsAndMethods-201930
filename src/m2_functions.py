@@ -3,11 +3,11 @@ Practice DEFINING and CALLING
      FUNCTIONS
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Leo Schoch-Spana.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -18,9 +18,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
-
+import math
 
 def main():
+
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -69,6 +70,21 @@ def main():
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+def sos():
+    winderturts()
+
+
+
+def winderturts():
+    window = rg.TurtleWindow
+    yoshi = rg.SimpleTurtle('turtle')
+    yoshi.pen = rg.Pen('green', 2)
+    sosboi = rg.SimpleTurtle('turtle')
+    sosboi.pen = rg.Pen('Magenta', 5)
+    yoshi.forward(100)
+    sosboi.backward(100)
+    window.close_on_mouse_click()
+
 
 
 ###############################################################################
