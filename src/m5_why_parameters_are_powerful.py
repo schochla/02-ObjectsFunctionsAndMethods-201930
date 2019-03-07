@@ -119,7 +119,6 @@ def draw_circles(point):
 #
 ###############################################################################
 
-def radius():
 
 def better_draw_circles(point):
     """
